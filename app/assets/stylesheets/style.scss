@@ -1,0 +1,46 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+
+/* variables */
+$crimson: #DC143C;
+
+
+body{
+
+  padding-top:80px;
+  font-size: 20px;
+}
+.center
+{
+  margin-top:450px;
+  text-align: center;
+ h1{
+  font-size: 500%;
+  color: $crimson;
+   }
+} 
+
+.logo:hover
+{
+  width:50px;
+  height: 50px;
+  transform: scale(0.9, 0.9);
+}
+p{
+  font-size: 120%;
+  padding: 20px 0;
+  
+}
+
+/* header naviguation*/
+.nav.navbar-nav.navbar-right
+{
+ padding-top:13px;
+}
+
+/*footer*/
+footer p{
+  text-align: center;
+  background-color: $crimson;
+}
